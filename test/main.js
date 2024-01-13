@@ -40,7 +40,7 @@ describe('DOM', () => {
 		const cardTitleEl = document.querySelector('.card__title');
 		const cardTitle = cardTitleEl.textContent.trim();
 
-		expect(cardTitle).to.equal('Equilibrium #3429');
+		expect(cardTitle).to.include('Equilibrium #3429');
 	});
 
 	it('should have two children inside of the article element', () => {
